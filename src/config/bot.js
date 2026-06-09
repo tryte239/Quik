@@ -255,7 +255,7 @@ export const botConfig = {
 
     // Allowed winner count range.
     minimumWinners: 1,
-    maximumWinners: 10,
+    maximumWinners: 1,
 
     // Allowed giveaway duration range in milliseconds.
     // 300000 = 5 minutes.
