@@ -1,4 +1,4 @@
-import { logger } from '../utils/logger.js';
+byimport { logger } from '../utils/logger.js';
 
 
 export const botConfig = {
@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: " Made by <@956971155183509514>",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -69,7 +69,7 @@ export const botConfig = {
     },
 
     // How long users must wait before submitting another application (hours).
-    applicationCooldown: 24, 
+    applicationCooldown: 240, 
 
     // Auto-delete denied applications after this many days.
     deleteDeniedAfter: 7, 
